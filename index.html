@@ -35,43 +35,72 @@
 
 
 
-						<!--	<div id="filtContainer">
-								<button class="button primary small" > Show all</button>
-								<button class="button primary small instock" onclick="filterSelection('button')"> In Stock</button>
-								<button class="button primary small" onclick="filterSelection('clothing')"> Clothing</button>
-								<button class="button primary small" onclick="filterSelection('PinPatch')"> Pins/Patches</button>
-								<button class="button primary small" onclick="filterSelection('colors')"> Boop</button>
-							  </div>-->
+							<div id="filtContainer">
+								<button class="button primary small active" data-filter="all"> Show all</button>
+								<button class="button primary small" data-filter="clothing"> Clothing</button>
+								<button class="button primary small" data-filter="pin-patch"> Pins/Patches</button>
+								<button class="button primary small" data-filter="book"> Books</button>
+								<button class="button primary small" data-filter="accessory"> Accessories/Home Goods</button>
+								<button class="button primary small" data-filter="jewelry"> Jewelry</button>
+								<button class="button primary small" data-filter="food"> Food/Drink</button>
+								<button class="button primary small" data-filter="wellness"> Wellness</button>
+							<!--	<button class="button primary small" data-filter="[product type]"> [PRODUCT TYPE]</button>
+								 <button class="button primary small instock"> In Stock</button> -->
+							  </div>
 
 							</header>
 
 
 							<section class="tiles">
-								<article class="product">
+								<article class="product pin-patch">
+									<span class="image">
+										<img src="images/EverythingIsBlk.png" alt="Everything You Love About America Pin" />
+									</span>
+									<a href="https://thesilverroom.com/products/everything-you-love-about-america-pin" target="_blank" rel="noopener noreferrer">
+										<div class="content">
+											<div class="lable-btns">
+												<a href="#" class="button primary small pre-order">Pre-Order</a>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="product clothing">
+									<span class="image">
+										<img src="images/Homophobia.png" alt="Homophobia Free Zone T-Shirt" />
+									</span>
+									<a href="https://www.upperdownunder.com/shop/1utupkhc8czrqimg1mlnk66n97xked" target="_blank" rel="noopener noreferrer">
+										<div class="content">
+											<div class="lable-btns">
+											<a href="#" class="button primary small sold-out">Sold Out</a>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/Intersectionality.png" alt="" />
 									</span>
 									<a href="https://www.hillfoxclub.com/shop/p/wl2taa5r66ynn2xqrk03q234gc3cxy" target="_blank" rel="noopener noreferrer">
 										<div class="content">
 											<div class="lable-btns">
-											<a href="#" class="button primary small sold-out clothing">Sold Out</a>
+											<a href="#" class="button primary small sold-out">Sold Out</a>
 										</div>
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/StndBckStndBy.png" alt="" />
 									</span>
 									<a href="https://jaykatelansky.com/Stand-Back-and-Stand-By-T-Shirts" target="_blank" rel="noopener noreferrer">
 										<div class="content">
 											<div class="lable-btns">
-											<a href="#" class="button primary small sold-out clothing">Sold Out</a>
+											<a href="#" class="button primary small sold-out">Sold Out</a>
 										</div>
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/TelfarDance.png" alt="" />
 									</span>
@@ -82,7 +111,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/PTB.png" alt="" />
 									</span>
@@ -93,7 +122,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/HealingTee.png" alt="" />
 									</span>
@@ -102,7 +131,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/BumperSticker.png" alt="" />
 									</span>
@@ -114,7 +143,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/TelfarFW20.png" alt="" />
 									</span>
@@ -123,7 +152,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/Assata.png" alt="" />
 									</span>
@@ -132,7 +161,7 @@
 										</div>
 									</a>
 								</article>								
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/HPNPin.png" alt="" />
 									</span>
@@ -141,7 +170,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/TheMovementDoc.png" alt="" />
 									</span>
@@ -153,7 +182,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/JamesBaldwin.png" alt="" />
 									</span>
@@ -165,7 +194,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/PFFPPin.png" alt="" />
 									</span>
@@ -174,7 +203,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/Undrowned.png" alt="" />
 									</span>
@@ -183,7 +212,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/FYDTote.png" alt="" />
 									</span>
@@ -192,7 +221,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/CCShirt.png" alt="" />
 									</span>
@@ -204,7 +233,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/BIK.png" alt="" />
 									</span>
@@ -213,7 +242,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/RevAtHome.png" alt="" />
 									</span>
@@ -225,7 +254,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/OUR14WORDS.png" alt="" />
 									</span>
@@ -237,7 +266,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/Respect.png" alt="" />
 									</span>
@@ -249,7 +278,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/Fire.png" alt="" />
 									</span>
@@ -258,7 +287,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/PowerFist.png" alt="" />
 									</span>
@@ -267,7 +296,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/YNHAGD.png" alt="" />
 									</span>
@@ -276,7 +305,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product jewelry">
 									<span class="image">
 										<img src="images/Blkmarzian.png" alt="" />
 									</span>
@@ -288,7 +317,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/RBW.png" alt="" />
 									</span>
@@ -297,7 +326,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product food">
 									<span class="image">
 										<img src="images/BGM-RoseEdited.png" alt="" />
 									</span>
@@ -306,7 +335,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/PJ.png" alt="" />
 									</span>
@@ -318,7 +347,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product wellness">
 									<span class="image">
 										<img src="images/TheRead.png" alt="" />
 									</span>
@@ -327,7 +356,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/AllLies.png" alt="" />
 									</span>
@@ -336,7 +365,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/RainbowBlkPride.png" alt="" />
 									</span>
@@ -345,7 +374,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/BlkFuture.png" alt="" />
 									</span>
@@ -357,7 +386,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/BLMMug.png" alt="" />
 									</span>
@@ -366,7 +395,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/BeyondSurvival.png" alt="" />
 									</span>
@@ -375,7 +404,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/Crown.png" alt="" />
 									</span>
@@ -384,7 +413,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product wellness">
 									<span class="image">
 										<img src="images/HairLift.png" alt="" />
 									</span>
@@ -393,7 +422,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/MalcolmX.png" alt="" />
 									</span>
@@ -405,7 +434,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/FreeHuey.png" alt="" />
 									</span>
@@ -417,7 +446,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/GJ.png" alt="" />
 									</span>
@@ -429,7 +458,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/BlackAF.png" alt="" />
 									</span>
@@ -438,7 +467,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/30A.png" alt="" />
 									</span>
@@ -447,7 +476,7 @@
 										</div>
 									</a>
 								</article>								
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/Chains.png" alt="" />
 									</span>
@@ -456,7 +485,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/PJBKM.png" alt="" />
 									</span>
@@ -465,7 +494,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product accessory">
 									<span class="image">
 										<img src="images/PFFPTote.png" alt="" />
 									</span>
@@ -477,7 +506,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/HU.png" alt="" />
 									</span>
@@ -486,7 +515,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product pin-patch">
 									<span class="image">
 										<img src="images/ThisIsAmerica.png" alt="" />
 									</span>
@@ -498,7 +527,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/GreenBook.png" alt="" />
 									</span>
@@ -507,7 +536,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/BlkFistHat.png" alt="" />
 									</span>
@@ -516,7 +545,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/BelAir.png" alt="" />
 									</span>
@@ -525,7 +554,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/BrownSkinGirl.png" alt="" />
 									</span>
@@ -534,7 +563,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product clothing">
 									<span class="image">
 										<img src="images/MLKTshirt.png" alt="" />
 									</span>
@@ -543,7 +572,7 @@
 										</div>
 									</a>
 								</article>
-								<article class="product">
+								<article class="product book">
 									<span class="image">
 										<img src="images/BlkRadWomen.png" alt="" />
 									</span>
@@ -552,6 +581,21 @@
 										</div>
 									</a>
 								</article>
+<!--
+								<article class="product [PRODUCT GROUP]">
+									<span class="image">
+										<img src="images/[NAME]" alt="[ITEM NAME]" />
+									</span>
+									<a href="[URL]" target="_blank" rel="noopener noreferrer">
+										<div class="content">
+											<div class="lable-btns">
+											<a href="#" class="button primary small sold-out">Sold Out</a>
+											</div>
+										</div>
+									</a>
+								</article>-->
+
+
 							</section>
 						</div>
 					</div>
@@ -580,7 +624,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-		<!--	<script sre="assets/js/filt.js"></script> -->
-
+			<script src="assets/js/filt.js"></script>
+			
+			<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	</body>
 </html>
